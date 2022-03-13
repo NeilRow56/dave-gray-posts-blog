@@ -1,10 +1,10 @@
 import Header from '../components/Header';
 import { useEffect, useState } from 'react';
 import Footer from '../components/Footer';
-import Home from '../components/Home';
+import PostPage from '../components/PostPage';
 import Nav from '../components/Nav';
 
-export default function Index() {
+export default function Post() {
 	return (
 		<div className="flex flex-col w-full h-screen bg-white mx-auto">
 			<div className="flex h-[50px] w-full bg-blue-600 text-white">
@@ -14,7 +14,7 @@ export default function Index() {
 				<Nav />
 			</div>
 			<div className="flex grow w-full items-center justify-center bg-white">
-				<Home />
+				<PostPage />
 			</div>
 			<div
 				className="flex w-full h-[40px] bg-blue-600 text-white
